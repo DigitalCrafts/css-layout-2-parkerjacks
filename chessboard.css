@@ -1,0 +1,36 @@
+.container{ 
+    display: flex; 
+    flex-direction: column; 
+    width: 100vh; 
+    height: 100vw; 
+    margin: 10vh 10 vw;
+}  
+.row1{ display: flex; 
+flex-direction: row;  
+width: 100vw;
+}  
+
+.row2{ 
+    display: flex; 
+    flex-direction: row-reverse; 
+    width: 100vw;
+} 
+
+.darkgrey{ 
+    width: 12.5vw; 
+    height: 12.5vh; 
+    
+    background-color: dimgray;  
+    border-style: solid; 
+    border-color: black;
+    border-width: 2px;
+} 
+.lightgrey{ 
+    width: 12.5vw; 
+    height: 12.5vh; 
+    
+    background-color: lightgrey;  
+    border-style: solid; 
+    border-color: black;
+    border-width: 2px;
+    }
