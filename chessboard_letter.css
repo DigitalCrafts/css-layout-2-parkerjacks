@@ -1,0 +1,95 @@
+body{ 
+    margin: 0;
+}
+.gameboard { 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    font-weight: bold; 
+    height: a; 
+    width: auto;
+} 
+.letters {  
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    height: 80vh;
+
+}
+
+.box {  
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: auto; 
+    width: 85vw;
+
+
+}
+
+.numbers { 
+    display: flex; 
+    flex-direction: row; 
+    align-items: flex-end;
+    justify-content: space-around; 
+   
+    font-weight: bold; 
+    width: 80vw;
+
+}
+.container{ 
+    display: flex; 
+    flex-direction: column; 
+    width: 80vw; 
+    height: auto;  
+   
+    
+   
+}  
+.row1{ 
+    display: flex; 
+    flex-direction: row;   
+    justify-content: center;
+    width: 80vw;  
+    height: 10 vh;
+}  
+
+.row2{ 
+    display: flex; 
+    flex-direction: row-reverse;  
+    justify-content: center;
+    width: 80vw; 
+    height: 10vh;
+} 
+
+.darkgrey{ 
+    width: 10vw; 
+    height: 10vh; 
+    
+    background-color: dimgray;  
+    border-style: solid; 
+    border-color: black;
+    border-width: 2px;
+} 
+.lightgrey{ 
+    width: 10vw; 
+    height: 10vh; 
+    
+    background-color: lightgrey;  
+    border-style: solid; 
+    border-color: black;
+    border-width: 2px;
+    } 
+/* .numbers2 {  
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;   
+    width: 60vw;
+    font-weight: bold;  
+   
+    align-items: flex-start;
+   
+    
+    }     */
