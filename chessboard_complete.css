@@ -1,0 +1,101 @@
+body{ 
+    margin: 0;
+}
+.gameboard { 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    font-weight: bold; 
+     
+    width: auto;
+} 
+.letters {  
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    height: 90vh;
+
+}
+
+.box {  
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: auto; 
+    width: 90vw;
+
+
+}
+
+.numbers { 
+    display: flex; 
+    flex-direction: row; 
+    align-items: flex-end;
+    justify-content: space-around; 
+   
+    font-weight: bold; 
+    width: 90vw;
+
+}
+.container{ 
+    display: flex; 
+    flex-direction: column; 
+    width: auto; 
+    height: auto; 
+    align-items: center; 
+   
+    
+   
+}  
+.row1{ 
+    display: flex; 
+    flex-direction: row;   
+    justify-content: center;
+    width: auto;  
+    height: auto; 
+    align-items: center;
+}  
+
+.row2{ 
+    display: flex; 
+    flex-direction: row-reverse;  
+    justify-content: center;
+    width: auto; 
+    height: auto; 
+    align-items: center;
+}  
+
+
+
+.darkgrey{  
+    display: flex;
+     width: 10vw; 
+    height: 10vh;  
+    
+    background-color: dimgray;  
+    border-style: solid; 
+    border-color: black;
+    border-width: 3px; 
+    flex-direction: column;
+    justify-content: center;
+} 
+.lightgrey{  
+    display: flex;
+   height: 10vh;
+   width: 10vw; 
+    background-color: lightgrey;  
+    border-style: solid; 
+    border-color: black;
+    border-width: 3px; 
+    flex-direction: column; 
+    justify-content: center;
+    }  
+.img {
+    display: flex;
+    width: 10vw; 
+    height: 10vh; 
+    justify-content: center; 
+    flex-direction: row;
+    } 

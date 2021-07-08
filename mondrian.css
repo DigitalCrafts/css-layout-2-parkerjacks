@@ -1,0 +1,289 @@
+._container1{ 
+    display: flex;
+    flex-direction: row; 
+    justify-content: left; 
+  
+} 
+
+  .flexbox_1{ 
+        display: flex; 
+        flex-direction: column;
+    }
+        ._1a{ 
+            background-color: yellow; 
+            width: 100px;
+            height: 48px; 
+            border-style: solid;
+            border-width: 4px; 
+            border-right: 2px solid darkgray;
+            border-bottom: 2px solid darkgray;
+            border-color: darkgray;
+        } 
+        ._2a{ 
+            background-color:yellow;
+            width: 100px;
+            height: 100px; 
+            border:2px solid darkgray ;  
+            border-left: 4px solid darkgray;
+           
+            
+        }  
+        .flexbox_white{ display: flex; 
+            flex-direction: row;
+
+        }
+            ._3a{ 
+                background-color: white; 
+                width: 48px;  
+                height: 100px; 
+                border-left: 4px solid darkgray; 
+                border-right: 2px solid darkgray;
+                border-top: 2px solid darkgray; 
+                border-bottom: 2px solid darkgray;
+            } 
+
+            ._4a{ 
+            background-color: white; 
+            width: 48px;  
+            height: 100px;  
+            border: darkgray 2px solid;
+           
+        }  
+
+        ._5a{  
+            background-color: white;
+            width: 100px; 
+            height: 25px; 
+            border: 2px solid darkgray; 
+            border-left: 4px solid darkgray; 
+    
+        } 
+        ._6a{ 
+            background-color: blue; 
+            width: 100px ; 
+            height: 100px; 
+            border-style: solid;
+            border-width: 2px; 
+            border-color: darkgray;
+            border-left: 4px solid darkgray;
+
+        } 
+        ._7a{  
+            background-color: red; 
+            width: 100px; 
+            height: 100px; 
+            border-style: solid;
+            border-width: 2px; 
+            border-color: darkgray; 
+            border-left: 4px solid darkgray ; 
+            border-bottom: 4px solid darkgray;
+
+        } 
+
+    .flexbox_2{ 
+        display: flex; 
+        flex-direction: column;
+    }  
+        ._1b{ 
+            background-color: blue; 
+            width: 100px;
+            height: 100px; 
+            border: solid darkgray 2px;  
+            border-top: solid 4px darkgray;
+
+        } 
+        ._2b{ 
+            background-color: red; 
+            width: 100px;
+            height: 100px; 
+            border: solid darkgray 2px; 
+        } 
+        ._3b{  
+            background-color: white;
+            width: 100px; 
+            height: 48px; 
+            border: solid darkgray 2px; 
+
+        } 
+        
+            ._4b{  
+                background-color: white; 
+                width: 48px;  
+                height: 100px; 
+                border: solid darkgray 2px; 
+
+            } 
+            ._5b{ 
+                background-color: white; 
+                width: 48px;  
+                height: 100px; 
+                border: solid darkgray 2px;
+                
+            
+
+        } 
+        ._6b{ 
+            background-color: yellow; 
+            width: 100px;
+            height: 100px; 
+            border: solid darkgray 2px;
+
+        } 
+            ._7b{  
+                background-color: white;
+                width: 48px; 
+                height: 25px; 
+                border: solid darkgray 2px; 
+                border-bottom: solid darkgray 4px;
+            }
+            ._8b{ 
+                background-color: black; 
+                width: 48px; 
+                height: 25px; 
+                border: solid darkgray 2px; 
+                border-bottom: darkgray solid 4px;
+
+            } 
+    .flexbox_3{ 
+        display: flex; 
+        flex-direction: column;
+    } 
+        ._1c{ 
+            background-color: white; 
+            width: 98px;
+            height: 48px;
+            border: solid darkgray 2px;
+        } 
+        ._2c{ 
+            background-color: white; 
+            width: 98px;
+            height: 48px;
+            border: solid darkgray 2px;
+        } 
+        ._4c{ 
+        background-color: black; 
+        width: 100px;
+        height: 100px; 
+        border: 2px solid darkgray;
+    } 
+    ._container2{ 
+        display: flex;
+        flex-direction: row;
+    }
+   
+    .bigbluebox{ 
+        background-color: blue; 
+        width: 202px;
+        height: 204px; 
+        border: 2px solid darkgray;
+    }
+.flexbox_4{ 
+    display: flex;
+    flex-direction: column;
+} 
+._1d{ 
+    background-color: yellow; 
+    width: 98px;
+    height: 48px;
+    border: solid darkgray 2px;
+} 
+._2d{ 
+    background-color: black; 
+    width: 98px;
+    height: 48px;
+    border: solid darkgray 2px;
+} 
+._4d{ 
+background-color: white; 
+width: 100px;
+height: 100px; 
+border: 2px solid darkgray;
+}  
+._container3{ 
+    display: flex; 
+    flex-direction: row;
+} 
+.ughh{ 
+    background-color: white;
+    border: 2px solid darkgray; 
+    width: 175px; 
+    height: 25px; 
+    border-bottom: 4px solid darkgray;
+}  
+.secretrow{ 
+    display: flex; 
+    flex-direction: row;
+}  
+.littlewhite{ 
+    background-color: white; 
+    border: solid 2px darkgray; 
+    width: 25px;
+    height: 25px; 
+    border-bottom: darkgray solid 4px; 
+    border-right: none;
+}
+
+
+.yella_black{ 
+    display: flex; 
+    flex-direction: row;
+} 
+._yellow1{ 
+    background-color: yellow; 
+    width: 48px ; 
+    height: 50px;
+    border: solid 2px darkgray;
+}
+._black1{ 
+    background-color: black; 
+    width: 48px; 
+    height: 50px; 
+    border: solid 2px darkgray;
+} 
+.white_flat{ 
+    background-color: white; 
+    width: 173px; 
+    height: 50px; 
+    border: 2px darkgray solid; 
+    border-right: 4px solid darkgray;
+} 
+.anotherflex{ 
+    display: flex; 
+    flex-direction: row;
+} 
+.flexbox_5{ 
+    display: flex; 
+    flex-direction: column; 
+    top: 62px;  
+    left: 424px;
+    position:absolute ; 
+    justify-content: left;
+}  
+.thing1{ 
+    background-color: yellow; 
+    width: 71px; 
+    height: 125px; 
+    border: solid darkgray 2px; 
+    border-right: 4px solid darkgray;
+}
+.thing2{  background-color: white; 
+    width: 71px; 
+    height: 125px; 
+    border: solid darkgray 2px; 
+    border-right: 4px solid darkgray;
+} 
+.thing3{ 
+    width: 71px; 
+    height: 154px; 
+    border: solid 2px darkgray;
+    border-right: 4px solid darkgray;
+} 
+.thing4{ 
+    background-color: white; 
+    width: 73px;  
+    height: 25px; 
+    border:darkgray 2px solid; 
+    border-bottom: 4px darkgray solid; 
+    border-left: none; 
+    border-right: 4px solid darkgray;
+}
